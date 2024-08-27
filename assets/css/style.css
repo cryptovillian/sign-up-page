@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #1935AA !important;
+}
+
+#navbar-section{
+    padding: 30px 60px;
+}
+
+nav{
+    background-color: white;
+    /* height: 62px; */
+    /* width: 1094px; */
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+    align-items: center;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+nav ul:nth-child(2) a{
+text-decoration: none;
+}
+
+nav ul:last-child{
+    display: flex;
+    list-style-type: none;
+}
+
+
+
+#coriftech-logo{
+    display: none;
+}
+
+#form-section{
+    background-color: white;
+    height: 620px;
+    width: 450px;
+    margin: 30px auto 0;
+    border-radius: 10px;
+    /* padding: 40px; */
+    
+}
+#sign-up{
+    text-align: center;
+}
+form> p:nth-child(2){
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+form div:nth-child(3){
+
+    margin-bottom: 10px;
+}
+
+#password-div{
+    margin: 20px 20px 0;
+
+}
+
+#password{
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid #BAC7D5;
+}
+
+#password:focus{
+    outline-color:#1935AA ;
+}
+
+#create-password{
+    font-weight: bold;
+    margin: 0 20px;
+    font-family: "Poppins", sans-serif;
+}
+
+#strong-password{
+    color: #00A58E;
+    margin: 10px 0 40px;
+}
+
+
+#unmatched-password{
+    color: red;
+    margin: 10px 0 40px;
+}
+
+#Create-account-div{
+    margin: 0 20px;
+}
+
+#Create-account{
+    width: 100%;
+    height: 50px;
+    background-color: #1935AA;
+    color: aliceblue;
+    border-radius: 7px;
+    border: none;
+    /* margin: 0 20px; */
+}
+#social-media{
+    background-color : #F7F8FE;
+    height: 212px;
+    width: 100%;
+    /* margin: 20px; */
+    border-radius: 10px;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#or-with{
+    display: flex;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+}
+#or-with::before{
+    content: "";
+    border: 1px solid black;
+    margin-right: 10px;
+    width: 150px;
+}
+
+#or-with::after{
+    content: "";
+    border: 1px solid black;
+    width: 150px;
+    margin-left: 10px;
+}
+
+#social-media div>a{
+    color: #4F5E71;
+    text-decoration: none;
+    border: 1px solid #4F5E71;
+    background-color: white;
+    padding: 8.53px 13.53px;
+    display: inline-block;
+    /* height: 30px; */
+    /* width: 120px; */
+    border-radius: 10px;
+}
+#social-media> div{
+  
+    width: fit-content;
+    margin:50px auto;
+   
+}
+
+
+@media screen and (max-width: 430px) {
+
+    nav{
+        border-radius: 0;
+    }
+
+    #coriftech-logo{
+        display: block;
+    }
+
+    #coriftech-logo2{
+        display: none;
+    }
+
+}
